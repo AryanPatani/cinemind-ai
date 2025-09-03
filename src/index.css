@@ -2,71 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Cinematic Movie Recommendation System Design
-All colors MUST be HSL for perfect theming.
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
 */
 
 @layer base {
   :root {
-    /* Cinematic Background System */
-    --background: 220 25% 8%;
-    --foreground: 210 40% 98%;
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
 
-    /* Card System - Deep cinema cards */
-    --card: 220 20% 12%;
-    --card-foreground: 210 35% 95%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
 
-    /* Interactive Elements */
-    --popover: 220 22% 10%;
-    --popover-foreground: 210 35% 95%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
 
-    /* Brand Colors - Gold and Cinema Blue */
-    --primary: 45 85% 65%;
-    --primary-foreground: 220 25% 8%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
 
-    --secondary: 220 15% 18%;
-    --secondary-foreground: 210 35% 90%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
 
-    /* Subtle Elements */
-    --muted: 220 15% 15%;
-    --muted-foreground: 215 15% 65%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 250 60% 30%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
 
-    /* Status Colors */
-    --destructive: 0 75% 55%;
+    --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    /* Interactive Borders */
-    --border: 220 15% 20%;
-    --input: 220 15% 18%;
-    --ring: 45 85% 65%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
 
-    /* Cinema Design Tokens */
-    --cinema-gold: 45 85% 65%;
-    --cinema-blue: 220 60% 50%;
-    --cinema-purple: 250 60% 30%;
-    --cinema-dark: 220 25% 8%;
-    --cinema-card: 220 20% 12%;
-    
-    /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(220 25% 8%), hsl(250 30% 12%));
-    --gradient-card: linear-gradient(145deg, hsl(220 20% 12%), hsl(220 15% 16%));
-    --gradient-gold: linear-gradient(135deg, hsl(45 85% 65%), hsl(35 80% 60%));
-    --gradient-accent: linear-gradient(135deg, hsl(250 60% 30%), hsl(220 60% 50%));
-    
-    /* Glows and Shadows */
-    --glow-gold: 0 0 30px hsl(45 85% 65% / 0.3);
-    --glow-blue: 0 0 25px hsl(220 60% 50% / 0.25);
-    --shadow-deep: 0 10px 40px hsl(220 25% 8% / 0.8);
-    --shadow-card: 0 8px 25px hsl(220 25% 5% / 0.6);
-    
-    /* Animation System */
-    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-bounce: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-
-    --radius: 0.75rem;
+    --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
 
